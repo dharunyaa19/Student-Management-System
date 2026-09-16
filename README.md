@@ -1,63 +1,44 @@
 # Student Management System
 
-## Project Overview
-
-The Student Management System is a web application developed to manage student records efficiently. It provides basic CRUD operations for adding, viewing, updating, and deleting student details.
-
-## Features
-
-- Add student details
-- View student details
-- Update student details
-- Delete student details
-- Manage student records
-- Simple and user-friendly interface
+## Project Description
+A CRUD-based web application developed to manage student records efficiently.
 
 ## Technologies Used
-
 - HTML
 - CSS
 - JavaScript
 - Python
 - Django
+- Django REST Framework
 - SQLite
 
-## CRUD Operations
+## Features
+- Add Student
+- View Students
+- Update Student
+- Delete Student
+- Search Student
 
-### Create
-Add new student records to the database.
-
-### Read
-View the stored student records.
-
-### Update
-Modify existing student information.
-
-### Delete
-Remove student records from the database.
-
-## Project Structure
-
-- `backend/` – Backend related files
-- `frontend/` – Frontend related files
-- `students/` – Student management application
-- `manage.py` – Django project management file
-- `db.sqlite3` – Database file
-- `requirements.txt` – Required Python packages
+## Student Details
+- Name
+- Email
+- Department
+- Age
+- Phone
 
 ## How to Run
 
-1. Clone the repository.
-2. Open the project folder.
-3. Create and activate a virtual environment.
-4. Install the required packages.
-5. Run the Django development server.
-6. Open the application in a web browser.
+1. Install dependencies:
+   pip install -r requirements.txt
 
-## Future Enhancements
+2. Run migrations:
+   python manage.py migrate
 
-- Student search and filtering
-- Authentication and authorization
-- Improved user interface
-- Student report generation
-- Advanced database management
+3. Start the server:
+   python manage.py runserver
+
+4. Open in browser:
+   http://127.0.0.1:8000/
+
+## Project Type
+CRUD Web Application
